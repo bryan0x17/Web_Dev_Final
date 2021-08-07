@@ -1,0 +1,38 @@
+<h3>Searching Land Use Redesignation Applications</h3>
+<table id="searchTable">
+    <tr>
+        <td>Search By:</td>
+    </tr>
+    <tr>
+        <td><label for="firstCriteriaValue" id="firstCriteriaName">Permit Number</label></td>
+        <td><input type="text" id="firstCriteriaValue" name="firstCriteriaValue" maxlength="25"></td>
+    </tr>
+    <tr>
+        <td><label for="secondCriteriaValue" id="secondCriteriaName"></label>Description</td>
+        <td><input type="text" id="secondCriteriaValue" name="secondCriteriaValue" maxlength="30"></td>
+    </tr>
+    <tr>
+        <td><label for="thirdCriteriaValue" id="thirdCriteriaName">Applicant</label></td>
+        <td><input type="text" id="thirdCriteriaValue" name="thirdCriteriaValue" maxlength="25"></td>
+    </tr>
+    <tr>
+        <td><label for="fourthCriteriaValue" id="fourthCriteriaName"></label>Address</td>
+        <td><input type="text" id="fourthCriteriaValue" name="fourthCriteriaValue" maxlength="30"></td>
+    </tr>
+</table>
+<h4>Search Results</h4>
+<table id="resultMain">
+    <thead id="resultHeading" class="hidden">
+        <tr>
+            <th>Permit Number</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Application Date</th>
+            <th>Current LUD</th>
+            <th>Proposed LUD</th>
+            <th>Address</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody id="resultTable"></tbody>
+</table>

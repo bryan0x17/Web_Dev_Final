@@ -1,0 +1,37 @@
+<h3>Searching 311 Service Requests</h3>
+<table id="searchTable">
+    <tr>
+        <td>Search By:</td>
+    </tr>
+    <tr>
+        <td><label for="firstCriteriaValue" id="firstCriteriaName">Request ID</label></td>
+        <td><input type="text" id="firstCriteriaValue" name="firstCriteriaValue" maxlength="25"></td>
+    </tr>
+    <tr>
+        <td><label for="secondCriteriaValue" id="secondCriteriaName"></label>Type of Service</td>
+        <td><input type="text" id="secondCriteriaValue" name="secondCriteriaValue" maxlength="30"></td>
+    </tr>
+    <tr>
+        <td><label for="thirdCriteriaValue" id="thirdCriteriaName">Department</label></td>
+        <td><input type="text" id="thirdCriteriaValue" name="thirdCriteriaValue" maxlength="25"></td>
+    </tr>
+    <tr>
+        <td><label for="fourthCriteriaValue" id="fourthCriteriaName"></label>Community</td>
+        <td><input type="text" id="fourthCriteriaValue" name="fourthCriteriaValue" maxlength="30"></td>
+    </tr>
+</table>
+<h4>Search Results</h4>
+<table id="resultMain">
+    <thead id="resultHeading" class="hidden">
+        <tr>
+            <th>Request ID</th>
+            <th>Requested Date</th>
+            <th>Status</th>
+            <th>Type of Service</th>
+            <th>Department</th>
+            <th>Community</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody id="resultTable"></tbody>
+</table>
