@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(250, 241, 238);
+}
+
+body::after { 
+    background-image: url("images/jose-carbajal-8xyki0bqvgw-unsplash.jpg"); /*Source: https://unsplash.com/photos/8xyki0bqvgw */
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.1;
+    z-index: -1; 
+}
+    
+header {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(250, 241, 238);
+}
+
+h2 {
+    text-align: center;
+}
+
+.buttonExplainText {
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#rentButton {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(233, 184, 76);
+}
+
+#rentButton:hover {
+    color: white;
+    background-color: rgb(196, 75, 74);
+}
+
+#clientList {
+    border-style: solid;
+    border: black;
+}
+
+footer {
+    background-color: rgb(233, 184, 76);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+footer div {
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+form img {
+    width: 450px;
+}
+
+#total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#confirmButton {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(233, 184, 76);
+}
+
+#confirmButton:hover {
+    color: white;
+    background-color: rgb(196, 75, 74);
+}
