@@ -1,4 +1,5 @@
 <h3>Searching Crime Statistics</h3>
+<p>Crime Statistics are compiled by the City of Calgary Police Service, and use a sector system that differs from the four quadrants of the city. The data also contains the community, a description of the crime, the number of crimes committed, the date, and a clickable location. This dataset does not contain data older than 2020.</p>
 <table id="searchTable">
     <tr>
         <td>Search By:</td>
@@ -8,7 +9,7 @@
         <td><input type="text" id="firstCriteriaValue" name="firstCriteriaValue" maxlength="25"></td>
     </tr>
     <tr>
-        <td><label for="secondCriteriaValue" id="secondCriteriaName"></label>Community Code</td>
+        <td><label for="secondCriteriaValue" id="secondCriteriaName"></label>Community</td>
         <td><input type="text" id="secondCriteriaValue" name="secondCriteriaValue" maxlength="30"></td>
     </tr>
     <tr>
@@ -17,7 +18,7 @@
     </tr>
     <tr>
         <td><label for="fourthCriteriaValue" id="fourthCriteriaName"></label>Year</td>
-        <td><input type="text" id="fourthCriteriaValue" name="fourthCriteriaValue" maxlength="30"></td>
+        <td><input type="number" id="fourthCriteriaValue" name="fourthCriteriaValue" min="2020" max="2021"></td>
     </tr>
 </table>
 <h4>Search Results</h4>
@@ -25,7 +26,7 @@
     <thead id="resultHeading" class="hidden">
         <tr>
             <th>Sector</th>
-            <th>Community Code</th>
+            <th>Community</th>
             <th>Category</th>
             <th>Crime Count</th>
             <th>Date</th>
