@@ -6,91 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final - Quiz</title>
     <link rel="stylesheet" href="quiz.css">
-    <script src="quiz.js"></script>
+    <script src="quiz.js" defer></script>
 </head>
 <body>
     <h1>Quiz World</h1>
-    <h2>The World's Most Comprehensive Programming Quiz</h2>
-    <button id="start">Start</button>
-    <div id="quiz">
-        <form>
-            <div id="question1"></div>
-            <table>
-                <tr>
-                    <td><label for="q1a" id="q1aText"></label></td>
-                    <td><input type="radio" name="q1" id="q1a"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1b" id="q1bText"></label></td>
-                    <td><input type="radio" name="q1" id="q1b"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1c" id="q1cText"></label></td>
-                    <td><input type="radio" name="q1" id="q1c"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1d" id="q1dText"></label></td>
-                    <td><input type="radio" name="q1" id="q1d"></td>
-                </tr>
-            </table>
-            <div id="question2"></div>
-            <table>
-                <tr>
-                    <td><label for="q1a" id="q1aText"></label></td>
-                    <td><input type="radio" name="q1" id="q1a"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1b" id="q1bText"></label></td>
-                    <td><input type="radio" name="q1" id="q1b"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1c" id="q1cText"></label></td>
-                    <td><input type="radio" name="q1" id="q1c"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1d" id="q1dText"></label></td>
-                    <td><input type="radio" name="q1" id="q1d"></td>
-                </tr>
-            </table>
-            <div id="question1"></div>
-            <table>
-                <tr>
-                    <td><label for="q1a" id="q1aText"></label></td>
-                    <td><input type="radio" name="q1" id="q1a"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1b" id="q1bText"></label></td>
-                    <td><input type="radio" name="q1" id="q1b"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1c" id="q1cText"></label></td>
-                    <td><input type="radio" name="q1" id="q1c"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1d" id="q1dText"></label></td>
-                    <td><input type="radio" name="q1" id="q1d"></td>
-                </tr>
-            </table>
-            <div id="question1"></div>
-            <table>
-                <tr>
-                    <td><label for="q1a" id="q1aText"></label></td>
-                    <td><input type="radio" name="q1" id="q1a"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1b" id="q1bText"></label></td>
-                    <td><input type="radio" name="q1" id="q1b"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1c" id="q1cText"></label></td>
-                    <td><input type="radio" name="q1" id="q1c"></td>
-                </tr>
-                <tr>
-                    <td><label for="q1d" id="q1dText"></label></td>
-                    <td><input type="radio" name="q1" id="q1d"></td>
-                </tr>
-            </table>
-        </form>
+    <h2>The World's Most Comprehensive Programming Quizzes</h2>
+    <button id="start">START</button>
+    <div id="quiz" hidden>
+        <div id="question1" class="questions"></div>
+        <table>
+            <tr>
+                <td><label for="q1a" id="q1aText"></label></td>
+                <td><input type="radio" name="q1" id="q1a"></td>
+            </tr>
+            <tr>
+                <td><label for="q1b" id="q1bText"></label></td>
+                <td><input type="radio" name="q1" id="q1b"></td>
+            </tr>
+            <tr>
+                <td><label for="q1c" id="q1cText"></label></td>
+                <td><input type="radio" name="q1" id="q1c"></td>
+            </tr>
+            <tr>
+                <td><label for="q1d" id="q1dText"></label></td>
+                <td><input type="radio" name="q1" id="q1d"></td>
+            </tr>
+        </table>
+        <div id="question2" class="questions"></div>
+        <table>
+            <tr>
+                <td><label for="q2a" id="q2aText"></label></td>
+                <td><input type="radio" name="q2" id="q2a"></td>
+            </tr>
+            <tr>
+                <td><label for="q2b" id="q2bText"></label></td>
+                <td><input type="radio" name="q2" id="q2b"></td>
+            </tr>
+            <tr>
+                <td><label for="q2c" id="q2cText"></label></td>
+                <td><input type="radio" name="q2" id="q2c"></td>
+            </tr>
+            <tr>
+                <td><label for="q2d" id="q2dText"></label></td>
+                <td><input type="radio" name="q2" id="q2d"></td>
+            </tr>
+        </table>
+        <div id="question3" class="questions"></div>
+        <table>
+            <tr>
+                <td><label for="q3a" id="q3aText"></label></td>
+                <td><input type="radio" name="q3" id="q3a"></td>
+            </tr>
+            <tr>
+                <td><label for="q3b" id="q3bText"></label></td>
+                <td><input type="radio" name="q3" id="q3b"></td>
+            </tr>
+            <tr>
+                <td><label for="q3c" id="q3cText"></label></td>
+                <td><input type="radio" name="q3" id="q3c"></td>
+            </tr>
+            <tr>
+                <td><label for="q3d" id="q3dText"></label></td>
+                <td><input type="radio" name="q3" id="q3d"></td>
+            </tr>
+        </table>
+        <div id="question4" class="questions"></div>
+        <table>
+            <tr>
+                <td><label for="q4a" id="q4aText"></label></td>
+                <td><input type="radio" name="q4" id="q4a"></td>
+            </tr>
+            <tr>
+                <td><label for="q4b" id="q4bText"></label></td>
+                <td><input type="radio" name="q4" id="q4b"></td>
+            </tr>
+            <tr>
+                <td><label for="q4c" id="q4cText"></label></td>
+                <td><input type="radio" name="q4" id="q4c"></td>
+            </tr>
+            <tr>
+                <td><label for="q4d" id="q4dText"></label></td>
+                <td><input type="radio" name="q4" id="q4d"></td>
+            </tr>
+        </table>
+        <div id="question5" class="questions"></div>
+        <table>
+            <tr>
+                <td><label for="q5a" id="q5aText"></label></td>
+                <td><input type="radio" name="q5" id="q5a"></td>
+            </tr>
+            <tr>
+                <td><label for="q5b" id="q5bText"></label></td>
+                <td><input type="radio" name="q5" id="q5b"></td>
+            </tr>
+            <tr>
+                <td><label for="q5c" id="q5cText"></label></td>
+                <td><input type="radio" name="q5" id="q5c"></td>
+            </tr>
+            <tr>
+                <td><label for="q5d" id="q5dText"></label></td>
+                <td><input type="radio" name="q5" id="q5d"></td>
+            </tr>
+        </table>
+        <button type="button" id="gradeButton">Grade Quiz</button>
+        <div id="grade"></div>
     </div>
 </body>
 </html>
